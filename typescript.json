@@ -1,0 +1,19 @@
+{
+  "Add a story": {
+    "prefix": "story",
+    "body": [
+      "export const ${1:CompName}: Story<${2:any}> = args => {",
+      "  $0",
+      "}",
+      "${1:CompName}.args = {}",
+      "",
+      "",
+      "${1:CompName}.parameters = {",
+      "  docs: {",
+      "    storyDescription: '',",
+      "  },",
+      "}"
+    ],
+    "description": "Add a story"
+  }
+}
